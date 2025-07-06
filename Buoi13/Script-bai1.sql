@@ -1,0 +1,11 @@
+CREATE DATABASE bai1
+USE bai1;
+
+CREATE TABLE students(
+	id int PRIMARY KEY AUTO_INCREMENT,
+	full_name VARCHAR(100) CHARSET utf8mb4 NOT NULL,
+	gender VARCHAR(10),
+	age INT,
+	city VARCHAR(255) CHARSET utf8mb4,
+	weight DECIMAL(5,3)
+);
